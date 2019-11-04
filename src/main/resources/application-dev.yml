@@ -35,7 +35,7 @@ spring:
   #Redis配置
   redis:
     database: 0
-    host: 192.168.66.130
+    host: 127.0.0.1
     port: 6379
     password: psj@775
     jedis:
