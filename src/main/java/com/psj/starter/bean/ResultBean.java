@@ -2,12 +2,15 @@ package com.psj.starter.bean;
 
 import java.io.Serializable;
 
+import lombok.Data;
+
 /**
  * @program: jluzh-psj-starter
  * @description: 统一返回接口
  * @author: DemonsPan
  * @create: 2019-11-06 17:36
  **/
+@Data
 public class ResultBean<T> implements Serializable {
     private static final long serialVersionUID = 1L;
 
