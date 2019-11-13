@@ -53,5 +53,10 @@ spring:
 mybatis:
   config-location: classpath:/mybatis-config.xml
 
+#sql语句输出级别
+logging:
+  level:
+    root: warn
+    com.psj.starter.*: trace
 
 

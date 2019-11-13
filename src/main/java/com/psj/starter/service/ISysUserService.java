@@ -1,11 +1,8 @@
 package com.psj.starter.service;
 
-import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
-import com.baomidou.mybatisplus.extension.service.IService;
 import com.psj.starter.bean.entity.SysUser;
-import com.psj.starter.mapper.SysUserMapper;
 
-import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
@@ -17,7 +14,8 @@ import java.util.List;
  * @author psj
  * @since 2019-10-06
  */
-public interface ISysUserService extends IService<SysUser> {
+@Service
+public interface ISysUserService{
     public List<SysUser> getAllUser();
 
 }
